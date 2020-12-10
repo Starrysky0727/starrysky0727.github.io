@@ -132,7 +132,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">5</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">7</span></a>
 
   </li>
   </ul>
@@ -162,6 +162,298 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/10/idea%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="沧溟">
+      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="永无止境">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/10/idea%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="post-title-link" itemprop="url">idea常见问题</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-12-10 10:49:43 / 修改时间：10:55:13" itemprop="dateCreated datePublished" datetime="2020-12-10T10:49:43+08:00">2020-12-10</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h4 id="修改项目的jdk版本"><a href="#修改项目的jdk版本" class="headerlink" title="修改项目的jdk版本"></a>修改项目的jdk版本</h4><ol>
+<li>file -&gt; Project Structure -&gt; Project 一共修改三处</li>
+</ol>
+<p><img src="image/i1.jpg" alt="步骤1"><br><img src="../../public/images/i2.jpg" alt="步骤2"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/09/flex%E5%B8%83%E5%B1%80/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="沧溟">
+      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="永无止境">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/12/09/flex%E5%B8%83%E5%B1%80/" class="post-title-link" itemprop="url">flex布局</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-12-09 15:56:01" itemprop="dateCreated datePublished" datetime="2020-12-09T15:56:01+08:00">2020-12-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-12-10 10:41:34" itemprop="dateModified" datetime="2020-12-10T10:41:34+08:00">2020-12-10</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="flex布局"><a href="#flex布局" class="headerlink" title="flex布局"></a>flex布局</h3><blockquote>
+<p>用来为盒模型提供最大的灵活性，任何一个容器都可以指定为flex布局</p>
+</blockquote>
+<ol>
+<li>为父盒子设为flex布局以后，子元素的float、clear和vertical-align属性将失效</li>
+<li>采用flex布局的元素，称为flex容器，简称容器。其所有的子元素自动成为容器成员，称为flex项目，简称项目</li>
+<li>原理：给父盒子添加flex属性，来控制子盒子的位置和排列方式</li>
+</ol>
+<h4 id="flex与inline-flex属性"><a href="#flex与inline-flex属性" class="headerlink" title="flex与inline-flex属性"></a>flex与inline-flex属性</h4><ol>
+<li>flex: 将对象设为块级元素</li>
+<li>inline-flex：将对象设为行内元素<h4 id="flex布局父项常见属性"><a href="#flex布局父项常见属性" class="headerlink" title="flex布局父项常见属性"></a>flex布局父项常见属性</h4><h5 id="flex-direction-设置主轴方向-即项目的排列方向"><a href="#flex-direction-设置主轴方向-即项目的排列方向" class="headerlink" title="flex-direction 设置主轴方向(即项目的排列方向)"></a>flex-direction 设置主轴方向(即项目的排列方向)</h5></li>
+<li>默认主轴方向就是x轴方向，水平向右</li>
+<li>默认侧轴方向就是y轴方向，水平向下</li>
+<li>主轴和侧轴是会发生变化的，就看flex-direction设置谁为主轴，剩下的就是侧轴。而子元素就是跟着主轴来排列的<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>row</td>
+<td>默认从左到右</td>
+</tr>
+<tr>
+<td>row-reverse</td>
+<td>从右到左</td>
+</tr>
+<tr>
+<td>column</td>
+<td>从上到下</td>
+</tr>
+<tr>
+<td>column-reverse</td>
+<td>从下到上</td>
+</tr>
+</tbody></table>
+</li>
+</ol>
+<h5 id="justify-content-设置主轴上的子元素排列方式"><a href="#justify-content-设置主轴上的子元素排列方式" class="headerlink" title="justify-content 设置主轴上的子元素排列方式"></a>justify-content 设置主轴上的子元素排列方式</h5><blockquote>
+<p>使用此属性之前一定要先确定好主轴</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>flex-start</td>
+<td>默认值 从头部开始 如果主轴是x轴，则从左到右</td>
+</tr>
+<tr>
+<td>flex-end</td>
+<td>从尾部开始排列</td>
+</tr>
+<tr>
+<td>center</td>
+<td>在主轴居中对齐(如果主轴是x轴 则水平居中)</td>
+</tr>
+<tr>
+<td>space-around</td>
+<td>平分剩余空间</td>
+</tr>
+<tr>
+<td>space-between</td>
+<td>先两边贴边 再平分剩余空间</td>
+</tr>
+</tbody></table>
+<h5 id="flex-wrap设置子元素是否换行"><a href="#flex-wrap设置子元素是否换行" class="headerlink" title="flex-wrap设置子元素是否换行"></a>flex-wrap设置子元素是否换行</h5><blockquote>
+<p>flex布局中项目默认是不换行的，都排在一条线上。如果装不开，会缩小子元素的宽度。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>nowrap</td>
+<td>默认值 不换行</td>
+</tr>
+<tr>
+<td>wrap</td>
+<td>换行</td>
+</tr>
+</tbody></table>
+<h5 id="align-items-设置侧轴上的子元素排列方式-单行"><a href="#align-items-设置侧轴上的子元素排列方式-单行" class="headerlink" title="align-items 设置侧轴上的子元素排列方式(单行)"></a>align-items 设置侧轴上的子元素排列方式(单行)</h5><blockquote>
+<p>该元素是控制子项在侧轴(默认是y轴)上的排列方式，在子项为单项的时候使用</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>flex-start</td>
+<td>默认值 从上到下</td>
+</tr>
+<tr>
+<td>flex-end</td>
+<td>从下到上</td>
+</tr>
+<tr>
+<td>center</td>
+<td>挤在一起居中(垂直居中)</td>
+</tr>
+<tr>
+<td>stretch</td>
+<td>拉伸</td>
+</tr>
+</tbody></table>
+<h5 id="align-content-设置侧轴上的子元素的排列方式-多行"><a href="#align-content-设置侧轴上的子元素的排列方式-多行" class="headerlink" title="align-content 设置侧轴上的子元素的排列方式(多行)"></a>align-content 设置侧轴上的子元素的排列方式(多行)</h5><blockquote>
+<p>设置子项在侧轴上的排列方式并且只能用于子项出现的换行的情况(多行),在单行下是没有效果的</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>属性值</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>flex-start</td>
+<td>默认值 从侧轴的头部开始排列</td>
+</tr>
+<tr>
+<td>flex-end</td>
+<td>从侧轴的尾部开始排列</td>
+</tr>
+<tr>
+<td>center</td>
+<td>在侧轴中间显示</td>
+</tr>
+<tr>
+<td>space-around</td>
+<td>子项在侧轴平分剩余空间</td>
+</tr>
+<tr>
+<td>space-between</td>
+<td>子项在侧轴先分布在两头 再平分剩余空间</td>
+</tr>
+<tr>
+<td>stretch</td>
+<td>设置子项元素高度平分父元素高度</td>
+</tr>
+</tbody></table>
+<h4 id="flex-flow"><a href="#flex-flow" class="headerlink" title="flex-flow"></a>flex-flow</h4><blockquote>
+<p>是 flex-direction 和 flex-wrap 属性的复合属性<br><font size=2></p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 设置主轴方向为x轴，并且换行 --&gt;</span><br><span class="line">flex-flow:row wrap;</span><br></pre></td></tr></table></figure>
+</font>
+
+<h4 id="flex布局子项常见属性"><a href="#flex布局子项常见属性" class="headerlink" title="flex布局子项常见属性"></a>flex布局子项常见属性</h4><h5 id="flex属性"><a href="#flex属性" class="headerlink" title="flex属性"></a>flex属性</h5><blockquote>
+<p>flex属性定义子项目分配剩余空间，用flex来表示占多少份数</p>
+</blockquote>
+<h5 id="align-self控制子项自己在侧轴上的排列方式"><a href="#align-self控制子项自己在侧轴上的排列方式" class="headerlink" title="align-self控制子项自己在侧轴上的排列方式"></a>align-self控制子项自己在侧轴上的排列方式</h5><blockquote>
+<p>align-self属性允许单个项目有与其它项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch</p>
+</blockquote>
+<h5 id="order属性定义项目的排列顺序"><a href="#order属性定义项目的排列顺序" class="headerlink" title="order属性定义项目的排列顺序"></a>order属性定义项目的排列顺序</h5><blockquote>
+<p>数值越小，排列越靠前，默认为0</p>
+</blockquote>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/09/Echarts%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -187,7 +479,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-12-09 10:06:21 / 修改时间：15:39:20" itemprop="dateCreated datePublished" datetime="2020-12-09T10:06:21+08:00">2020-12-09</time>
+              <time title="创建时间：2020-12-09 10:06:21 / 修改时间：15:56:18" itemprop="dateCreated datePublished" datetime="2020-12-09T10:06:21+08:00">2020-12-09</time>
             </span>
 
           
@@ -236,7 +528,8 @@
 </font>
 <font size =4>
 
-<p>实现效果<br><img src="images/%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%92%8C%E6%9F%B1%E7%8A%B6%E5%9B%BE.jpg" alt="折线图和柱状图"></p>
+<p>实现效果</p>
+<p><img src="images/%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%92%8C%E6%9F%B1%E7%8A%B6%E5%9B%BE.jpg" alt="折线图和柱状图"></p>
 </font>
 #### 断开的圆环
 <font size=2>
@@ -470,7 +763,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-21 15:09:26" itemprop="dateModified" datetime="2020-11-21T15:09:26+08:00">2020-11-21</time>
+                <time title="修改时间：2020-12-09 16:14:56" itemprop="dateModified" datetime="2020-12-09T16:14:56+08:00">2020-12-09</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -775,7 +1068,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
