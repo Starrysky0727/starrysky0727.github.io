@@ -20,30 +20,34 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="你要悄悄努力 然后惊艳所有人">
-<meta property="og:type" content="website">
-<meta property="og:title" content="永无止境">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="可视化面板介绍​    应对现在数据可视化的趋势，越来越多企业需要在很多场景(营销数据，生产数据，用户数据)下使用，可视化图表来展示体现数据，让数据更加直观，数据特点更加突出。 01-使用技术完成该项目需要具备以下知识：  div + css 布局 flex 布局 Less 原生js + jquery 使用 rem适配 echarts基础  02- 案例适配方案 设计稿是1920px    fle">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Echarts数据可视化">
+<meta property="og:url" content="http://example.com/2020/12/14/Echarts%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.html">
 <meta property="og:site_name" content="永无止境">
-<meta property="og:description" content="你要悄悄努力 然后惊艳所有人">
+<meta property="og:description" content="可视化面板介绍​    应对现在数据可视化的趋势，越来越多企业需要在很多场景(营销数据，生产数据，用户数据)下使用，可视化图表来展示体现数据，让数据更加直观，数据特点更加突出。 01-使用技术完成该项目需要具备以下知识：  div + css 布局 flex 布局 Less 原生js + jquery 使用 rem适配 echarts基础  02- 案例适配方案 设计稿是1920px    fle">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2020/12/14/Echarts%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/docs/media/1576664444951.png">
+<meta property="article:published_time" content="2020-12-14T08:38:06.000Z">
+<meta property="article:modified_time" content="2020-12-15T05:37:26.285Z">
 <meta property="article:author" content="沧溟">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2020/12/14/Echarts%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/docs/media/1576664444951.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2020/12/14/Echarts%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>永无止境</title>
+  <title>Echarts数据可视化 | 永无止境</title>
   
 
 
@@ -156,86 +160,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/01/18/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/01/18/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">JavaScript学习笔记</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-01-18 10:11:34" itemprop="dateCreated datePublished" datetime="2021-01-18T10:11:34+08:00">2021-01-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-28 20:25:08" itemprop="dateModified" datetime="2021-04-28T20:25:08+08:00">2021-04-28</time>
-              </span>
-
-          
-
-        </div>
-      </header>
 
     
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h4 id="什么是Json"><a href="#什么是Json" class="headerlink" title="什么是Json"></a>什么是Json</h4><ol>
-<li>JavaScript对象表示法 简称JSON 是一种轻量级的数据交换格式 </li>
-<li>用键值对的形式出现</li>
-<li>Json 是存储和交换文本信息的语法 类似于XML 用于系统之间的数据传输</li>
-<li>使用<ol>
-<li>若后台返回前台的数据格式是文本格式 字符串类型 该如何使用后台返回的数据 可以把json格式的字符串转换为对象 就可以通过对象.属性的形式来访问  JSON.parse()</li>
-<li>将对象转为json字符串  JSON.stringify()</li>
-</ol>
-</li>
-</ol>
-<h4 id="Es6"><a href="#Es6" class="headerlink" title="Es6"></a>Es6</h4><ol>
-<li>在es6种可以使用 =&gt; 去定义函数 把这种函数叫做箭头函数</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
@@ -251,10 +179,9 @@
       <meta itemprop="name" content="永无止境">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/14/Echarts%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/" class="post-title-link" itemprop="url">Echarts数据可视化</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Echarts数据可视化
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -284,7 +211,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="可视化面板介绍"><a href="#可视化面板介绍" class="headerlink" title="可视化面板介绍"></a>可视化面板介绍</h2><p>​    应对现在数据可视化的趋势，越来越多企业需要在很多场景(营销数据，生产数据，用户数据)下使用，可视化图表来展示体现数据，让数据更加直观，数据特点更加突出。</p>
+        <h2 id="可视化面板介绍"><a href="#可视化面板介绍" class="headerlink" title="可视化面板介绍"></a>可视化面板介绍</h2><p>​    应对现在数据可视化的趋势，越来越多企业需要在很多场景(营销数据，生产数据，用户数据)下使用，可视化图表来展示体现数据，让数据更加直观，数据特点更加突出。</p>
 <h3 id="01-使用技术"><a href="#01-使用技术" class="headerlink" title="01-使用技术"></a>01-使用技术</h3><p>完成该项目需要具备以下知识：</p>
 <ul>
 <li>div + css 布局</li>
@@ -747,856 +674,34 @@
 
 
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/11/eclipse%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/11/eclipse%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="post-title-link" itemprop="url">eclipse使用指南</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-12-11 10:54:04" itemprop="dateCreated datePublished" datetime="2020-12-11T10:54:04+08:00">2020-12-11</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-02-26 09:03:33" itemprop="dateModified" datetime="2021-02-26T09:03:33+08:00">2021-02-26</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h4 id="报错-找不到主类"><a href="#报错-找不到主类" class="headerlink" title="报错 找不到主类"></a>报错 找不到主类</h4><ol>
-<li>错误: 找不到或无法加载主类 com.dw.health.xxxApplication<br>在Project -&gt; clean一下</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/10/AdminLTE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/10/AdminLTE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">AdminLTE学习笔记</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-12-10 14:17:19 / 修改时间：15:51:24" itemprop="dateCreated datePublished" datetime="2020-12-10T14:17:19+08:00">2020-12-10</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="AdminTLE"><a href="#AdminTLE" class="headerlink" title="AdminTLE"></a>AdminTLE</h3><h4 id="默认的皮肤颜色"><a href="#默认的皮肤颜色" class="headerlink" title="默认的皮肤颜色"></a>默认的皮肤颜色</h4><ol>
-<li>在使用AdminTLE提供的默认皮肤颜色之前，得先引入其css文件<font size=2>
-
-</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;dist&#x2F;css&#x2F;skins&#x2F;skin-purple.min.css&quot;&gt;</span><br></pre></td></tr></table></figure>
-
-</font>
-
-<h4 id="常用类"><a href="#常用类" class="headerlink" title="常用类"></a>常用类</h4><ol>
-<li>.wrapper  //div 将页面上的所有元素都包裹其中</li>
-<li>.main-header // header 包含logo和navbar</li>
-<li>.main-sidebar //aside 侧边栏 包含sidebar菜单</li>
-<li>.content-wrapper //div 主体</li>
-<li>.main-footer //页脚</li>
-<li>.control-sidebar //页面右侧侧栏边栏区域</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/10/idea%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/10/idea%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="post-title-link" itemprop="url">idea常见问题</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-12-10 10:49:43 / 修改时间：11:12:40" itemprop="dateCreated datePublished" datetime="2020-12-10T10:49:43+08:00">2020-12-10</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h4 id="修改项目的jdk版本"><a href="#修改项目的jdk版本" class="headerlink" title="修改项目的jdk版本"></a>修改项目的jdk版本</h4><ol>
-<li>file -&gt; Project Structure -&gt; Project 一共修改三处</li>
-</ol>
-<p><img src="images/i1.jpg" alt="bz1"><br><img src="../../public/images/i2.jpg" alt="bz2"></p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/09/flex%E5%B8%83%E5%B1%80/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/09/flex%E5%B8%83%E5%B1%80/" class="post-title-link" itemprop="url">flex布局</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-12-09 15:56:01" itemprop="dateCreated datePublished" datetime="2020-12-09T15:56:01+08:00">2020-12-09</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-10 10:41:34" itemprop="dateModified" datetime="2020-12-10T10:41:34+08:00">2020-12-10</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="flex布局"><a href="#flex布局" class="headerlink" title="flex布局"></a>flex布局</h3><blockquote>
-<p>用来为盒模型提供最大的灵活性，任何一个容器都可以指定为flex布局</p>
-</blockquote>
-<ol>
-<li>为父盒子设为flex布局以后，子元素的float、clear和vertical-align属性将失效</li>
-<li>采用flex布局的元素，称为flex容器，简称容器。其所有的子元素自动成为容器成员，称为flex项目，简称项目</li>
-<li>原理：给父盒子添加flex属性，来控制子盒子的位置和排列方式</li>
-</ol>
-<h4 id="flex与inline-flex属性"><a href="#flex与inline-flex属性" class="headerlink" title="flex与inline-flex属性"></a>flex与inline-flex属性</h4><ol>
-<li>flex: 将对象设为块级元素</li>
-<li>inline-flex：将对象设为行内元素<h4 id="flex布局父项常见属性"><a href="#flex布局父项常见属性" class="headerlink" title="flex布局父项常见属性"></a>flex布局父项常见属性</h4><h5 id="flex-direction-设置主轴方向-即项目的排列方向"><a href="#flex-direction-设置主轴方向-即项目的排列方向" class="headerlink" title="flex-direction 设置主轴方向(即项目的排列方向)"></a>flex-direction 设置主轴方向(即项目的排列方向)</h5></li>
-<li>默认主轴方向就是x轴方向，水平向右</li>
-<li>默认侧轴方向就是y轴方向，水平向下</li>
-<li>主轴和侧轴是会发生变化的，就看flex-direction设置谁为主轴，剩下的就是侧轴。而子元素就是跟着主轴来排列的<table>
-<thead>
-<tr>
-<th>属性值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>row</td>
-<td>默认从左到右</td>
-</tr>
-<tr>
-<td>row-reverse</td>
-<td>从右到左</td>
-</tr>
-<tr>
-<td>column</td>
-<td>从上到下</td>
-</tr>
-<tr>
-<td>column-reverse</td>
-<td>从下到上</td>
-</tr>
-</tbody></table>
-</li>
-</ol>
-<h5 id="justify-content-设置主轴上的子元素排列方式"><a href="#justify-content-设置主轴上的子元素排列方式" class="headerlink" title="justify-content 设置主轴上的子元素排列方式"></a>justify-content 设置主轴上的子元素排列方式</h5><blockquote>
-<p>使用此属性之前一定要先确定好主轴</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>flex-start</td>
-<td>默认值 从头部开始 如果主轴是x轴，则从左到右</td>
-</tr>
-<tr>
-<td>flex-end</td>
-<td>从尾部开始排列</td>
-</tr>
-<tr>
-<td>center</td>
-<td>在主轴居中对齐(如果主轴是x轴 则水平居中)</td>
-</tr>
-<tr>
-<td>space-around</td>
-<td>平分剩余空间</td>
-</tr>
-<tr>
-<td>space-between</td>
-<td>先两边贴边 再平分剩余空间</td>
-</tr>
-</tbody></table>
-<h5 id="flex-wrap设置子元素是否换行"><a href="#flex-wrap设置子元素是否换行" class="headerlink" title="flex-wrap设置子元素是否换行"></a>flex-wrap设置子元素是否换行</h5><blockquote>
-<p>flex布局中项目默认是不换行的，都排在一条线上。如果装不开，会缩小子元素的宽度。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>属性</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>nowrap</td>
-<td>默认值 不换行</td>
-</tr>
-<tr>
-<td>wrap</td>
-<td>换行</td>
-</tr>
-</tbody></table>
-<h5 id="align-items-设置侧轴上的子元素排列方式-单行"><a href="#align-items-设置侧轴上的子元素排列方式-单行" class="headerlink" title="align-items 设置侧轴上的子元素排列方式(单行)"></a>align-items 设置侧轴上的子元素排列方式(单行)</h5><blockquote>
-<p>该元素是控制子项在侧轴(默认是y轴)上的排列方式，在子项为单项的时候使用</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>属性值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>flex-start</td>
-<td>默认值 从上到下</td>
-</tr>
-<tr>
-<td>flex-end</td>
-<td>从下到上</td>
-</tr>
-<tr>
-<td>center</td>
-<td>挤在一起居中(垂直居中)</td>
-</tr>
-<tr>
-<td>stretch</td>
-<td>拉伸</td>
-</tr>
-</tbody></table>
-<h5 id="align-content-设置侧轴上的子元素的排列方式-多行"><a href="#align-content-设置侧轴上的子元素的排列方式-多行" class="headerlink" title="align-content 设置侧轴上的子元素的排列方式(多行)"></a>align-content 设置侧轴上的子元素的排列方式(多行)</h5><blockquote>
-<p>设置子项在侧轴上的排列方式并且只能用于子项出现的换行的情况(多行),在单行下是没有效果的</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th>属性值</th>
-<th>说明</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>flex-start</td>
-<td>默认值 从侧轴的头部开始排列</td>
-</tr>
-<tr>
-<td>flex-end</td>
-<td>从侧轴的尾部开始排列</td>
-</tr>
-<tr>
-<td>center</td>
-<td>在侧轴中间显示</td>
-</tr>
-<tr>
-<td>space-around</td>
-<td>子项在侧轴平分剩余空间</td>
-</tr>
-<tr>
-<td>space-between</td>
-<td>子项在侧轴先分布在两头 再平分剩余空间</td>
-</tr>
-<tr>
-<td>stretch</td>
-<td>设置子项元素高度平分父元素高度</td>
-</tr>
-</tbody></table>
-<h4 id="flex-flow"><a href="#flex-flow" class="headerlink" title="flex-flow"></a>flex-flow</h4><blockquote>
-<p>是 flex-direction 和 flex-wrap 属性的复合属性<br><font size=2></p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 设置主轴方向为x轴，并且换行 --&gt;</span><br><span class="line">flex-flow:row wrap;</span><br></pre></td></tr></table></figure>
-</font>
-
-<h4 id="flex布局子项常见属性"><a href="#flex布局子项常见属性" class="headerlink" title="flex布局子项常见属性"></a>flex布局子项常见属性</h4><h5 id="flex属性"><a href="#flex属性" class="headerlink" title="flex属性"></a>flex属性</h5><blockquote>
-<p>flex属性定义子项目分配剩余空间，用flex来表示占多少份数</p>
-</blockquote>
-<h5 id="align-self控制子项自己在侧轴上的排列方式"><a href="#align-self控制子项自己在侧轴上的排列方式" class="headerlink" title="align-self控制子项自己在侧轴上的排列方式"></a>align-self控制子项自己在侧轴上的排列方式</h5><blockquote>
-<p>align-self属性允许单个项目有与其它项目不一样的对齐方式，可覆盖align-items属性。默认值为auto，表示继承父元素的align-items属性，如果没有父元素，则等同于stretch</p>
-</blockquote>
-<h5 id="order属性定义项目的排列顺序"><a href="#order属性定义项目的排列顺序" class="headerlink" title="order属性定义项目的排列顺序"></a>order属性定义项目的排列顺序</h5><blockquote>
-<p>数值越小，排列越靠前，默认为0</p>
-</blockquote>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/09/Echarts%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/09/Echarts%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">Echarts学习笔记</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-12-09 10:06:21" itemprop="dateCreated datePublished" datetime="2020-12-09T10:06:21+08:00">2020-12-09</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-16 16:31:40" itemprop="dateModified" datetime="2020-12-16T16:31:40+08:00">2020-12-16</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="Echarts"><a href="#Echarts" class="headerlink" title="Echarts"></a>Echarts</h3><ol>
-<li>定义:一个使用JavaScript实现的开源可视化库，可以流畅的运行再PC和移动设备上，兼容当前绝大部分浏览器(IE8/9/10/11，Chrome，Firefox，Safari等)</li>
-<li>官网: <a target="_blank" rel="noopener" href="https://echarts.apache.org/zh/index.html">https://echarts.apache.org/zh/index.html</a></li>
-<li>实例: <a target="_blank" rel="noopener" href="https://www.makeapie.com/explore.html">https://www.makeapie.com/explore.html</a></li>
-</ol>
-<h4 id="基本步骤"><a href="#基本步骤" class="headerlink" title="基本步骤"></a>基本步骤</h4><ol>
-<li>先创建一个dom容器，一般是个具有宽高的div元素。需注意不能再在个容器上初始化多个Echarts实例。 </li>
-<li>通过 echarts.init 方法初始化实例并通过 setOption 方法生成图。</li>
-</ol>
-<h4 id="常见属性"><a href="#常见属性" class="headerlink" title="常见属性"></a>常见属性</h4><ol>
-<li>grid 调整图表离容器的距离<ol>
-<li>属性是 left top bottom right ,值可以是具体的像素值，可以是相对于容器宽度的百分比，可以是’left’、’center’、’right’</li>
-<li>containLabel: true 显示刻度标签 false的话 隐藏刻度标签 </li>
-</ol>
-</li>
-<li>xAxis x轴<ol>
-<li>boundaryGap 坐标轴两边留白策略</li>
-</ol>
-</li>
-<li>yAxis y轴</li>
-<li>tooltip 鼠标悬浮时显示的提示框 <ol>
-<li>formatter里面的 a 是series里的name, b是data里面的name,c是data里面的value,d是百分比</li>
-</ol>
-</li>
-<li>legend 图例</li>
-<li>toolbox 工具箱组件 可以另存为图片等功能</li>
-<li>series 系列图表设置 其决定着显示哪种类型的图表<ol>
-<li>stack 数据堆叠 同一个类目轴上系列配置相同的stack值后，后一个系列的值会加上前一个系列的值</li>
-<li>如果series里面有name值，则删掉legend里面的data也会显示图例 </li>
-</ol>
-</li>
-<li>color 设置颜色，后面是个数组<h4 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h4><font size =2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- html部分  --&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;rd&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">&lt;!-- js部分 --&gt;</span><br><span class="line">var rd &#x3D; document.getElementById(&#39;rd&#39;);</span><br><span class="line">var rdChart &#x3D; echarts.init(rd);</span><br><span class="line">rdOption &#x3D; &#123;</span><br><span class="line">    &#x2F;* 设置颜色 *&#x2F;</span><br><span class="line">    color: [&#39;#3ba1ff&#39;],</span><br><span class="line">    &#x2F;* 配置X轴 *&#x2F;</span><br><span class="line">    xAxis: &#123;</span><br><span class="line">        &#x2F;&#x2F; 坐标轴类型，适用于离散的类目数据(类目轴)。为该类型时类目数据可自动从 series.data 或 dataset.source 中取，或者可通过 xAxis.data 设置类目数据。</span><br><span class="line">        type: &#39;category&#39;,</span><br><span class="line">        data: [&#39;低收入&#39;, &#39;支出型&#39;, &#39;残疾人&#39;, &#39;低保户&#39;, &#39;特困&#39;, &#39;退役军人&#39;],</span><br><span class="line">        axisLabel: &#123;</span><br><span class="line">            fontSize: &#39;10&#39;,</span><br><span class="line">            &#x2F;&#x2F;interval 在类目轴中有效 用来解决x轴显示不完全</span><br><span class="line">            &#x2F;&#x2F;值为0 强制显示所有的标签</span><br><span class="line">            &#x2F;&#x2F;值为1 表示 隔一个标签显示一个标签 值为 2 表示隔两个标签显示一个标签</span><br><span class="line">            interval: 0</span><br><span class="line">        &#125;,</span><br><span class="line">            &#x2F;&#x2F;去掉刻度</span><br><span class="line">            axisTick: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">    &#x2F;* 配置y轴 *&#x2F;</span><br><span class="line">    yAxis: &#123;</span><br><span class="line">        &#x2F;&#x2F; 数值轴 用于连续数据</span><br><span class="line">        type: &#39;value&#39;,</span><br><span class="line">        name: &#39;自付金额&#39;,</span><br><span class="line">        min: 0,</span><br><span class="line">        max: 1000,</span><br><span class="line">        position: &#39;left&#39;,</span><br><span class="line">        &#x2F;&#x2F;坐标轴的轴线</span><br><span class="line">        axisLine: &#123;</span><br><span class="line">            show: false,</span><br><span class="line">            lineStyle: &#123;&#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#x2F;&#x2F;去掉刻度</span><br><span class="line">        axisTick: &#123;</span><br><span class="line">            show: false</span><br><span class="line">        &#125;,</span><br><span class="line">        &#x2F;&#x2F;调整字条大小</span><br><span class="line">        axisLabel: &#123;</span><br><span class="line">            fontSize: &#39;10&#39;,</span><br><span class="line">            formatter: &#39;&#123;value&#125;&#39;</span><br><span class="line">            &#125;</span><br><span class="line">         &#125;,</span><br><span class="line">        series: &#123;</span><br><span class="line">            name: &#39;自付金额&#39;,</span><br><span class="line">            type: &#39;bar&#39;,</span><br><span class="line"> 		&#x2F;&#x2F;柱图宽</span><br><span class="line">            barWidth: 18, </span><br><span class="line">            data: [250, 800, 100, 980, 400, 400]</span><br><span class="line">         &#125;</span><br><span class="line">     &#125;</span><br><span class="line">    rdChart.setOption(rdOption);</span><br><span class="line">    &#x2F;&#x2F;在容器大小发生变化时 改变图标尺寸</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, function() &#123;</span><br><span class="line">        rdChart.resize();</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure>
-</font>
-
-</li>
-</ol>
-<h4 id="横向柱状图"><a href="#横向柱状图" class="headerlink" title="横向柱状图"></a>横向柱状图</h4><blockquote>
-<p>要点:修改x轴属性中的type为value,y轴属性中的type为category</p>
-</blockquote>
-<font size = 2>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">function lbpic() &#123;</span><br><span class="line">    &#x2F;&#x2F;基于准备好的dom 初始化echarts实例 </span><br><span class="line">    var lbChart &#x3D; echarts.init(document.getElementById(&#39;lb&#39;));</span><br><span class="line">    lbOption &#x3D; &#123;</span><br><span class="line">        tooltip: &#123;</span><br><span class="line">            trigger: &#39;axis&#39;,</span><br><span class="line">            show: false,</span><br><span class="line">            textStyle: &#123;</span><br><span class="line">                color: &#39;#6a717b&#39;,</span><br><span class="line">            &#125;,</span><br><span class="line">        &#125;,</span><br><span class="line">        grid: &#123;</span><br><span class="line">            left: &#39;0%&#39;,</span><br><span class="line">            top: &#39;10%&#39;,</span><br><span class="line">            right: &#39;20%&#39;,</span><br><span class="line">            bottom: &#39;10%&#39;,</span><br><span class="line">            containLabel: true</span><br><span class="line">        &#125;,</span><br><span class="line">        yAxis: [&#123;</span><br><span class="line">            type: &#39;category&#39;, &#x2F;&#x2F;Y轴为类别名</span><br><span class="line">            data: [&#39;新认定&#39;, &#39;返贫&#39;],</span><br><span class="line">            inverse: true,</span><br><span class="line">            axisLine: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;,</span><br><span class="line">            axisTick: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;],</span><br><span class="line">        xAxis: [&#123;</span><br><span class="line">            show: false,</span><br><span class="line">            type: &#39;value&#39;</span><br><span class="line">        &#125;],</span><br><span class="line">        series: [&#123;</span><br><span class="line">            type: &#39;bar&#39;,</span><br><span class="line">            barWidth: 18,</span><br><span class="line">            data: [1200, 120],</span><br><span class="line">            label: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    show: true,</span><br><span class="line">                    position: &#39;right&#39;,</span><br><span class="line">                    textStyle: &#123; &#x2F;&#x2F;柱状体显示字体设置</span><br><span class="line">                        color: &#39;black&#39;, &#x2F;&#x2F;颜色 不设置默认为当前该柱体颜色</span><br><span class="line">                        fontSize: 16, &#x2F;&#x2F;大小</span><br><span class="line">                        fontWeight: 400, &#x2F;&#x2F;粗细</span><br><span class="line">                    &#125;,</span><br><span class="line">                    formatter: &#39;&#123;c&#125;人&#39; &#x2F;&#x2F;c后面加单位</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;　　　　　　　　 &#x2F;&#x2F;这里是重点</span><br><span class="line">                    color: function(params) &#123; &#x2F;&#x2F;柱体颜色设置</span><br><span class="line">                        &#x2F;&#x2F;注意，如果颜色太少的话，后面颜色不会自动循环，最好义几个颜色</span><br><span class="line">                        var colorList &#x3D; [&#39;#4090ff&#39;, &#39;#5CDF2E&#39;, &#39;#61a0a8&#39;,   &#39;#d48265&#39;, &#39;#91c7ae&#39;, &#39;#749f83&#39;, &#39;#71cdbb&#39;];</span><br><span class="line">                                return colorList[params.dataIndex]</span><br><span class="line">                            &#125;</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;]</span><br><span class="line">            &#125;;</span><br><span class="line">            lbChart.setOption(lbOption);</span><br><span class="line">            window.addEventListener(&quot;resize&quot;, function() &#123;</span><br><span class="line">                lbChart.resize();</span><br><span class="line">            &#125;)</span><br><span class="line">        &#125;</span><br><span class="line">        lbpic();</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</font>
-<!-- images/横向柱状图.jpg -->
-![横向柱状图](https://github.com/Starrysky0727/starrysky0727.github.io/raw/master/images/%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%92%8C%E6%9F%B1%E7%8A%B6%E5%9B%BE.jpg)
-
-<h4 id="折线图和柱状图"><a href="#折线图和柱状图" class="headerlink" title="折线图和柱状图"></a>折线图和柱状图</h4><font size =2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- html部分 要给 div 宽度和高度 --&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;zf&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">&lt;!-- js部分 --&gt;</span><br><span class="line">function zfpic() &#123;</span><br><span class="line">    var zf &#x3D; document.getElementById(&quot;zf&quot;);</span><br><span class="line">    var zfChart &#x3D; echarts.init(zf);</span><br><span class="line">    zfoption &#x3D; &#123;</span><br><span class="line">        &#x2F;&#x2F; 这部分主要是当鼠标悬停在交叉点的时候 显示相应的x y</span><br><span class="line">        tooltip: &#123;</span><br><span class="line">            trigger: &#39;axis&#39;,</span><br><span class="line">            &#x2F;&#x2F; 坐标轴指示器,指示坐标轴当前刻度的工具</span><br><span class="line">            axisPointer: &#123;</span><br><span class="line">                type: &#39;line&#39;,</span><br><span class="line">                label: &#123;</span><br><span class="line">                    backgroundColor: &#39;#6a7985&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        color: [&#39;#3ba1ff&#39;],</span><br><span class="line">        &#x2F;&#x2F; 图例组件 可以通过点击图例控制哪些内容不显示</span><br><span class="line">        legend: &#123;</span><br><span class="line">            orient: &#39;horizontal&#39;,</span><br><span class="line">            &#x2F;&#x2F; 图例组件离容器上侧的距离 可以是百分比 也可以是具体的像素值  也可以是top middle bottom 如果是top middle bottom 这些，组件会根据相应的位置自动对齐。</span><br><span class="line">            top: &#39;2%&#39;,</span><br><span class="line">            right: &#39;0%&#39;,</span><br><span class="line">            data: [&#39;自付金额&#39;, &#39;自付比例&#39;],</span><br><span class="line">            &#x2F;&#x2F; 图例的样式 也可以通过 &#39;image:&#x2F;&#x2F;url&#39; 设置为图片</span><br><span class="line">            icon: &#39;circle&#39;</span><br><span class="line">        &#125;,</span><br><span class="line">        xAxis: &#123;</span><br><span class="line">            type: &#39;category&#39;,</span><br><span class="line">            data: [&#39;低收入&#39;, &#39;支出型&#39;, &#39;残疾人&#39;, &#39;低保户&#39;, &#39;特困&#39;, &#39;退役军人&#39;],</span><br><span class="line">            &#x2F;&#x2F; 用来解决x轴显示不完全</span><br><span class="line">            axisLabel: &#123;</span><br><span class="line">                fontSize: &#39;12&#39;,</span><br><span class="line">                interval: 0</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F;去掉x轴的刻度</span><br><span class="line">            axisTick: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F;去掉网格线</span><br><span class="line">            splitLine: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        yAxis: [&#123;</span><br><span class="line">            type: &#39;value&#39;,</span><br><span class="line">            min: 0,</span><br><span class="line">            max: 1000,</span><br><span class="line">            position: &#39;left&#39;,</span><br><span class="line">            axisLine: &#123;</span><br><span class="line">                &#x2F;&#x2F;隐藏y轴</span><br><span class="line">                show: false,</span><br><span class="line">                lineStyle: &#123;&#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F;去掉y轴的刻度</span><br><span class="line">            axisTick: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;,</span><br><span class="line">            axisLabel: &#123;</span><br><span class="line">                fontSize: &#39;12&#39;,</span><br><span class="line">                formatter: &#39;&#123;value&#125;&#39;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            type: &#39;value&#39;,</span><br><span class="line">            min: 0,</span><br><span class="line">            max: 100,</span><br><span class="line">            position: &#39;right&#39;,</span><br><span class="line">            axisLine: &#123;</span><br><span class="line">                show: false,</span><br><span class="line">                lineStyle: &#123;&#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F;去掉y轴的刻度</span><br><span class="line">            axisTick: &#123;</span><br><span class="line">                show: false</span><br><span class="line">            &#125;,</span><br><span class="line">            axisLabel: &#123;</span><br><span class="line">                fontSize: &#39;12&#39;,</span><br><span class="line">                &#x2F;&#x2F; 百分比的y轴</span><br><span class="line">                formatter: &#39;&#123;value&#125;%&#39;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;],</span><br><span class="line">        grid: &#123;</span><br><span class="line">            left: &#39;0&#39;,</span><br><span class="line">            right: &#39;0&#39;,</span><br><span class="line">            bottom: &#39;20%&#39;,</span><br><span class="line">            top: &#39;15%&#39;,</span><br><span class="line">            containLabel: true</span><br><span class="line">        &#125;,</span><br><span class="line">        series: [&#123;</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    color: &#39;#fbda53&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            name: &#39;自付比例&#39;,</span><br><span class="line">            type: &#39;line&#39;,</span><br><span class="line">            &#x2F;&#x2F;改变区域颜色</span><br><span class="line">            areaStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    color: &#39;#FFFBE9&#39; </span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F; 对应的是自付比例的信息</span><br><span class="line">            yAxisIndex: 1,</span><br><span class="line">            &#x2F;&#x2F;隐藏数据点</span><br><span class="line">            symbol: &#39;none&#39;,</span><br><span class="line">            data: [34, 31, 85, 40, 75, 30],</span><br><span class="line">            &#x2F;&#x2F; 设置平滑</span><br><span class="line">            smooth: true,</span><br><span class="line">            color: &#39;#3AA0FF&#39;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            name: &#39;自付金额&#39;,</span><br><span class="line">            type: &#39;bar&#39;,</span><br><span class="line">            barWidth: 19, &#x2F;&#x2F;柱图宽</span><br><span class="line">            data: [250, 800, 100, 980, 400, 400],</span><br><span class="line">            &#x2F;&#x2F; 对应的是自付金额的信息</span><br><span class="line">            yAxisIndex: 0</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;</span><br><span class="line">    zfChart.setOption(zfoption);</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, function() &#123;</span><br><span class="line">        zfChart.resize();</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line">zfpic();</span><br></pre></td></tr></table></figure>
-</font>
-<font size =4>
-
-<p>实现效果</p>
-<p><img src="images/%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%92%8C%E6%9F%B1%E7%8A%B6%E5%9B%BE.jpg" alt="折线图和柱状图"></p>
-</font>
-#### 断开的圆环
-<font size=2>
-
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- html部分 --&gt;</span><br><span class="line">&lt;div id&#x3D;&quot;zf&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">&lt;!-- js部分 --&gt;</span><br><span class="line">function cbpic() &#123;</span><br><span class="line">    var cbChart &#x3D; echarts.init(document.getElementById(&#39;cb&#39;));</span><br><span class="line">    var data &#x3D; [&#123;</span><br><span class="line">            value: 178,</span><br><span class="line">            name: &#39;低收入&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    borderWidth: 4,</span><br><span class="line">                    color: &#39;#1890FF&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#x2F;&#x2F;实现间断的数据</span><br><span class="line">        &#123;</span><br><span class="line">            value: 10, &#x2F;&#x2F;值根据自己需要的效果调大小</span><br><span class="line">            name: &#39;&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    label: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    labelLine: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    &#x2F;&#x2F;设置间断的颜色样式</span><br><span class="line">                    color: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderColor: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderWidth: 0</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 168,</span><br><span class="line">            name: &#39;支出型&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    borderWidth: 4,</span><br><span class="line">                    color: &#39;#13C2C2&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 10,</span><br><span class="line">            name: &#39;&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    label: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    labelLine: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    color: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderColor: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderWidth: 0</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 58,</span><br><span class="line">            name: &#39;特困人&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    borderWidth: 4,</span><br><span class="line">                    color: &#39;#2FC25B&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 10,</span><br><span class="line">            name: &#39;&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    label: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    labelLine: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    color: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderWidth: 0</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 100,</span><br><span class="line">            name: &#39;残疾人&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    borderWidth: 4,</span><br><span class="line">                    color: &#39;#FACC14&#39;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;, &#123;</span><br><span class="line">            value: 10,</span><br><span class="line">            name: &#39;&#39;,</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    label: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    labelLine: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    color: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderColor: &#39;rgba(0, 0, 0, 0)&#39;,</span><br><span class="line">                    borderWidth: 0</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    ];</span><br><span class="line">    cbOption &#x3D; &#123;</span><br><span class="line">        title: &#123;</span><br><span class="line">            &#x2F;&#x2F; 主标题</span><br><span class="line">            text: &#39;总金额&#39;,</span><br><span class="line">            &#x2F;&#x2F; 副标题</span><br><span class="line">            subtext: &#39;￥123,224&#39;,</span><br><span class="line">            x: &#39;center&#39;,</span><br><span class="line">            y: &#39;28%&#39;,</span><br><span class="line">            textAlign: &#39;center&#39;,</span><br><span class="line">            &#x2F;&#x2F; 调整主标题的样式</span><br><span class="line">            textStyle: &#123;</span><br><span class="line">                fontWeight: 400,</span><br><span class="line">                fontSize: 12,</span><br><span class="line">                color: &#39;#666666&#39;,</span><br><span class="line">                align: &#39;center&#39;,</span><br><span class="line">            &#125;,</span><br><span class="line">            &#x2F;&#x2F; 调整副标题的样式</span><br><span class="line">            subtextStyle: &#123;</span><br><span class="line">                fontSize: 16,</span><br><span class="line">                color: &#39;#262626&#39;,</span><br><span class="line">                align: &#39;center&#39;,</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        &#x2F;&#x2F; 当鼠标悬停在圆环上的样式</span><br><span class="line">        tooltip: &#123;</span><br><span class="line">            show: true,</span><br><span class="line">            &#x2F;&#x2F;item 数据项图形触发 主要用于散点图,饼图等无类目轴的图表中使用</span><br><span class="line">            &#x2F;&#x2F; axis 坐标轴触发 主要用于柱状图,折线图等会使用类目轴的图表中使用</span><br><span class="line">            trigger: &#39;item&#39;,</span><br><span class="line">            formatter: &#39;&#123;a&#125; &lt;br&#x2F;&gt;&#123;b&#125;: &#123;c&#125; (&#123;d&#125;%)&#39;</span><br><span class="line">        &#125;,</span><br><span class="line">        legend: &#123;</span><br><span class="line">            orient: &#39;vertical&#39;,</span><br><span class="line">            icon: &#39;circle&#39;,</span><br><span class="line">            itemHeight: 10,</span><br><span class="line">            left: 200,</span><br><span class="line">            top: 55,</span><br><span class="line">            data: [&#39;低收入&#39;, &#39;支出型&#39;, &#39;残疾人&#39;, &#39;低保户&#39;, &#39;特困人&#39;],</span><br><span class="line">            textStyle: &#123;</span><br><span class="line">                fontSize: 12</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        series: [&#123;</span><br><span class="line">            name: &#39;详情&#39;,		          </span><br><span class="line">            type: &#39;pie&#39;,</span><br><span class="line">            radius: [&#39;50%&#39;, &#39;65%&#39;], &#x2F;&#x2F;第一个参数设置空心程度 第二个控制大小</span><br><span class="line">            center: [&quot;34%&quot;, &quot;40%&quot;], &#x2F;&#x2F;设置位置</span><br><span class="line">            itemStyle: &#123;</span><br><span class="line">                normal: &#123;</span><br><span class="line">                    label: &#123;</span><br><span class="line">                        show: false</span><br><span class="line">                    &#125;,</span><br><span class="line">                    labelLine: &#123;</span><br><span class="line">                        show: true</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;,</span><br><span class="line">            data: data</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;;</span><br><span class="line">    cbChart.setOption(cbOption);</span><br><span class="line">    window.addEventListener(&quot;resize&quot;, function() &#123;</span><br><span class="line">        cbChart.resize();</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line">cbpic();</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-</font>
-
-<p><img src="images/%E6%96%AD%E5%BC%80%E7%9A%84%E5%9C%86%E7%8E%AF.jpg" alt="断开的圆环"></p>
-<h4 id="地图"><a href="#地图" class="headerlink" title="地图"></a>地图</h4><h3 id="项目练习"><a href="#项目练习" class="headerlink" title="项目练习"></a>项目练习</h3><h4 id="适配方案"><a href="#适配方案" class="headerlink" title="适配方案"></a>适配方案</h4><ol>
-<li>设计稿是1280px<ol>
-<li>flexible.js 把屏幕分为16等份<br><img src="images/flexible.jpg" alt="flexible.js"></li>
-<li>名称: px to rem &amp; rpx (cssrem) 插件的基准值是80px<br><img src="images/px-to-rem.jps" alt="px-to-rem"></li>
-</ol>
-</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/21/JQuery/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/21/JQuery/" class="post-title-link" itemprop="url">JQuery的学习笔记</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-11-21 15:10:11 / 修改时间：19:07:03" itemprop="dateCreated datePublished" datetime="2020-11-21T15:10:11+08:00">2020-11-21</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/JQuery%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">JQuery的学习笔记</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="事件处理"><a href="#事件处理" class="headerlink" title="事件处理"></a>事件处理</h3><h4 id="on-绑定事件"><a href="#on-绑定事件" class="headerlink" title="on()绑定事件"></a>on()绑定事件</h4><blockquote>
-<ol>
-<li>on()方法可以给元素绑定一个或多个事件的事件处理函数</li>
-</ol>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;第一种写法</span><br><span class="line">$(&quot;div&quot;).on(&#123;</span><br><span class="line">    mouseenter: function() &#123;</span><br><span class="line">        $(this).css(&quot;background&quot;, &quot;skyblue&quot;);</span><br><span class="line">    &#125;,</span><br><span class="line">    click: function() &#123;</span><br><span class="line">        $(this).css(&quot;background&quot;, &quot;pink&quot;);</span><br><span class="line">    &#125;,</span><br><span class="line">    mouseleave: function() &#123;</span><br><span class="line">        $(this).css(&quot;background&quot;, &quot;purple&quot;);</span><br><span class="line">    &#125;,</span><br><span class="line">    &#125;);</span><br><span class="line">    &#x2F;&#x2F;第二种写法 第一个元素是事件 多个事件必须要用 隔开 第二个是子选择器 第三个参数就是回调函数</span><br><span class="line">    $(&quot;div&quot;).on(&quot;mouseenter mouseleave&quot;,</span><br><span class="line">    function() &#123;</span><br><span class="line">        $(this).toggleClass(&#39;current&#39;);</span><br><span class="line">    &#125;);</span><br></pre></td></tr></table></figure>
-<blockquote>
-<ol start="2">
-<li>on()可以实现事件委派操作。事件委派的定义就是，把原来加给子元素身上的事件绑定在父元素身上，就是把事件委派给父元素。</li>
-</ol>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;给ul绑定事件，触发对象是li 只有当点击到li时 会产生冒泡 会触发到父级身上 然后才会实现点击事件</span><br><span class="line">$(&quot;ul&quot;).on(&quot;click&quot;, &quot;li&quot;, function() &#123;</span><br><span class="line">    alert(&#39;Hello World&#39;);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<blockquote>
-<ol start="3">
-<li>on()可以给未来动态创建的元素绑定事件</li>
-</ol>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;3、可以给未来动态创建的元素绑定事件</span><br><span class="line">$(&quot;ol&quot;).on(&quot;click&quot;, &quot;li&quot;, function() &#123;</span><br><span class="line">    alert(&#39;Hello&#39;);</span><br><span class="line">&#125;);</span><br><span class="line">&#x2F;&#x2F; $(&quot;ol li&quot;).click(function() &#123;</span><br><span class="line">&#x2F;&#x2F;     alert(&#39;Hello&#39;);</span><br><span class="line">&#x2F;&#x2F; &#125;);</span><br><span class="line">var li &#x3D; $(&quot;&lt;li&gt;我是后来才创建的li&lt;&#x2F;li&gt;&quot;);</span><br><span class="line">$(&quot;ol&quot;).append(li);</span><br></pre></td></tr></table></figure>
-<h4 id="解绑事件"><a href="#解绑事件" class="headerlink" title="解绑事件"></a>解绑事件</h4>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/20/%E5%B1%80%E9%83%A8%E4%BD%9C%E7%94%A8%E5%9F%9F/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/20/%E5%B1%80%E9%83%A8%E4%BD%9C%E7%94%A8%E5%9F%9F/" class="post-title-link" itemprop="url">局部作用域</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-11-20 09:40:46" itemprop="dateCreated datePublished" datetime="2020-11-20T09:40:46+08:00">2020-11-20</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-11-21 15:09:22" itemprop="dateModified" datetime="2020-11-21T15:09:22+08:00">2020-11-21</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E9%94%99%E9%A2%98%E6%95%B4%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">错题整理</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="Js"><a href="#Js" class="headerlink" title="Js"></a>Js</h3><h4 id="局部作用域"><a href="#局部作用域" class="headerlink" title="局部作用域"></a>局部作用域</h4><blockquote>
-<p>作用域的定义是：一个变量可以生效的范围<br>在JavaScript当中，只有函数有局部作用域，if、for等都没有。在局部作用域中定义的变量只能在这个局部作用域内部使用</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">        function f() &#123;</span><br><span class="line">            var a &#x3D; 10;</span><br><span class="line">            console.log(a);</span><br><span class="line">        &#125;</span><br><span class="line">        f();</span><br><span class="line">        &#x2F;&#x2F; console.log(a);  &#x2F;&#x2F;报错 a 没有被定义</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p>有一种特殊的情况(把局部变量变成伪全局变量)<br>缺点是：</p>
-<blockquote>
-<ol>
-<li>生命周期变长</li>
-<li>占据了全局命名空间，造成不可预知的错误</li>
-</ol>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">        function f() &#123;</span><br><span class="line">            a &#x3D; 10;</span><br><span class="line">            console.log(a);</span><br><span class="line">        &#125;</span><br><span class="line">        f();</span><br><span class="line">        console.log(a);  &#x2F;&#x2F;输出 a &#x3D; 10</span><br><span class="line">&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-
-<p>面试题总结</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var btns &#x3D; document.querySelectorAll(&#39;button&#39;);</span><br><span class="line">for (var i &#x3D; 0; i &lt; btns.length; i++) &#123;</span><br><span class="line">    btns[i].addEventListener(&#39;click&#39;, function() &#123;</span><br><span class="line">    console.log(i); &#x2F;&#x2F;输出4</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>解决办法</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;解决办法 函数有局部作用域</span><br><span class="line">var btns &#x3D; document.querySelectorAll(&#39;button&#39;);</span><br><span class="line">for (var i &#x3D; 0; i &lt; btns.length; i++) &#123;</span><br><span class="line">    (function(i) &#123;</span><br><span class="line">        btns[i].addEventListener(&#39;click&#39;, function() &#123;</span><br><span class="line">            console.log(i); &#x2F;&#x2F; 根据点击的btn 输出对应的值</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;)(i)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/17/Maskdown%E8%AF%AD%E6%B3%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/header.jpg">
-      <meta itemprop="name" content="沧溟">
-      <meta itemprop="description" content="你要悄悄努力 然后惊艳所有人">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="永无止境">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/17/Maskdown%E8%AF%AD%E6%B3%95/" class="post-title-link" itemprop="url">Maskdown语法</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-11-17 19:50:10" itemprop="dateCreated datePublished" datetime="2020-11-17T19:50:10+08:00">2020-11-17</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-12-09 16:14:56" itemprop="dateModified" datetime="2020-12-09T16:14:56+08:00">2020-12-09</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/maskdown%E8%AF%AD%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">maskdown语法</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="使用-号标记"><a href="#使用-号标记" class="headerlink" title="使用 # 号标记"></a>使用 # 号标记</h3><font size =2> 
-
-<blockquote>
-<p>使用#号可表示1~6级标题 一级标题对应一个 <strong>#</strong> 号 二级标题对应两个 <strong>##</strong> 号，以此类推 </p>
-</blockquote>
-</font>
-
-<font size =2>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/11/17/Maskdown%E8%AF%AD%E6%B3%95/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
         
-      
-    </div>
 
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/12/11/eclipse%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" rel="prev" title="eclipse使用指南">
+      <i class="fa fa-chevron-left"></i> eclipse使用指南
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/01/18/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="next" title="JavaScript学习笔记">
+      JavaScript学习笔记 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
       </footer>
+    
   </article>
   
   
   
-
-
-  
-  <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
-  </nav>
 
 
 
@@ -1648,6 +753,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%AF%E8%A7%86%E5%8C%96%E9%9D%A2%E6%9D%BF%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.</span> <span class="nav-text">可视化面板介绍</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#01-%E4%BD%BF%E7%94%A8%E6%8A%80%E6%9C%AF"><span class="nav-number">1.1.</span> <span class="nav-text">01-使用技术</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#02-%E6%A1%88%E4%BE%8B%E9%80%82%E9%85%8D%E6%96%B9%E6%A1%88"><span class="nav-number">1.2.</span> <span class="nav-text">02- 案例适配方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#03-%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE"><span class="nav-number">1.3.</span> <span class="nav-text">03-基础设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#04-header-%E5%B8%83%E5%B1%80"><span class="nav-number">1.4.</span> <span class="nav-text">04-header 布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#05-mainbox-%E4%B8%BB%E4%BD%93%E6%A8%A1%E5%9D%97"><span class="nav-number">1.5.</span> <span class="nav-text">05-mainbox  主体模块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#06-%E5%85%AC%E5%85%B1%E9%9D%A2%E6%9D%BF%E6%A8%A1%E5%9D%97-panel"><span class="nav-number">1.6.</span> <span class="nav-text">06-公共面板模块 panel</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#07-%E6%9F%B1%E5%BD%A2%E5%9B%BE-bar-%E6%A8%A1%E5%9D%97-%E5%B8%83%E5%B1%80"><span class="nav-number">1.7.</span> <span class="nav-text">07-柱形图 bar 模块(布局)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#08-%E4%B8%AD%E9%97%B4%E5%B8%83%E5%B1%80"><span class="nav-number">1.8.</span> <span class="nav-text">08-中间布局</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#09-Echarts-%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.9.</span> <span class="nav-text">09-Echarts-介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#10-Echarts-%E4%BD%93%E9%AA%8C"><span class="nav-number">1.10.</span> <span class="nav-text">10-Echarts-体验</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#11-Echarts-%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE"><span class="nav-number">1.11.</span> <span class="nav-text">11-Echarts-基础配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#12-%E6%9F%B1%E7%8A%B6%E5%9B%BE%E5%9B%BE%E8%A1%A8%EF%BC%88%E4%B8%A4%E5%A4%A7%E6%AD%A5%E9%AA%A4%EF%BC%89"><span class="nav-number">1.12.</span> <span class="nav-text">12- 柱状图图表（两大步骤）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#13-%E6%9F%B1%E7%8A%B6%E5%9B%BE2%E5%AE%9A%E5%88%B6"><span class="nav-number">1.13.</span> <span class="nav-text">13-柱状图2定制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#14-%E6%8A%98%E7%BA%BF%E5%9B%BE1-%E4%BA%BA%E5%91%98%E5%8F%98%E5%8C%96%E6%A8%A1%E5%9D%97%E5%88%B6%E4%BD%9C"><span class="nav-number">1.14.</span> <span class="nav-text">14-折线图1 人员变化模块制作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#15-%E6%8A%98%E7%BA%BF%E5%9B%BE2-%E6%92%AD%E6%94%BE%E9%87%8F%E6%A8%A1%E5%9D%97%E5%88%B6%E4%BD%9C"><span class="nav-number">1.15.</span> <span class="nav-text">15-折线图2 播放量模块制作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#16-%E9%A5%BC%E5%BD%A2%E5%9B%BE-1%E5%B9%B4%E9%BE%84%E5%88%86%E5%B8%83%E6%A8%A1%E5%9D%97%E5%88%B6%E4%BD%9C"><span class="nav-number">1.16.</span> <span class="nav-text">16-饼形图 1年龄分布模块制作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#17-%E9%A5%BC%E5%BD%A2%E5%9B%BE2-%E5%9C%B0%E5%8C%BA%E5%88%86%E5%B8%83%E6%A8%A1%E5%9D%97%E5%88%B6%E4%BD%9C%EF%BC%88%E5%8D%97%E4%B8%81%E6%A0%BC%E5%B0%94%E7%8E%AB%E7%91%B0%E5%9B%BE%EF%BC%89"><span class="nav-number">1.17.</span> <span class="nav-text">17-饼形图2 地区分布模块制作（南丁格尔玫瑰图）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#18-Echarts-%E7%A4%BE%E5%8C%BA%E4%BB%8B%E7%BB%8D"><span class="nav-number">1.18.</span> <span class="nav-text">18-Echarts-社区介绍</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#19-Echarts-map%E4%BD%BF%E7%94%A8%EF%BC%88%E6%89%A9%E5%B1%95%EF%BC%89"><span class="nav-number">1.19.</span> <span class="nav-text">19-Echarts-map使用（扩展）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#20-%E6%9C%80%E5%90%8E%E7%BA%A6%E6%9D%9F%E7%BC%A9%E6%94%BE"><span class="nav-number">1.20.</span> <span class="nav-text">20- 最后约束缩放</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
